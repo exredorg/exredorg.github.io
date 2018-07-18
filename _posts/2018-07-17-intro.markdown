@@ -1,0 +1,11 @@
+---
+title: Exred Introduction
+sidebar:
+  nav: toc
+---
+
+## Exred
+a Node-RED clone written in Elixir
+
+Exred (just like Node-RED) is a flow based programming tool. Exred utilises Elixir's (or more precisely Erlang's) easy process creation, message passing and supervision trees.
+ 
