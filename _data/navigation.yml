@@ -1,20 +1,26 @@
 main:
-    - title: "First"
-      url: /
-    - title: "Second"
-      url: /
-toc:
+    - title: User Guide
+      url: /guide/getting-started/
+    - title: Developers
+      url: /guide/getting-started/overview.html
+guide_docs:
     - title: Getting Started
       children:
-          - title: Installation
-            url: /docs/getting-started/installation
           - title: Overview
-            url: /docs/getting-started/overview
-    - title: User Guide
+            url: /guide/getting-started/overview
+          - title: Installation
+            url: /guide/getting-started/installation
+    - title: Flows
       children:
           - title: Flow Editor
             url: /guide/editor
-
-
-
+    - title: Nodes
+      children:
+          - title: Node Selector
+            url: /guide/node-selector
+          - title: Node Info
+            url: /guide/node-info
+          - title: Node Config
+            url: /guide/node-config
+dev_docs:
  

@@ -27,13 +27,12 @@ github_username:  exredorg
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
-paginate: 5 # amount of posts to show
-paginate_path: /page:num
 
-include: ["_posts", "_pages"]
+include:
+    - "guide"
 
 plugins:
-  - jekyll-feed
+    - jekyll-feed
 
 defaults:
   # _posts
@@ -42,11 +41,22 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
-      comments: true
-      share: true
-      related: true
+      comments: false
+      share: false
+      related: false
+  - scope:
+      path: "/guide"
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: false
+      share: false
+      related: false
+
 
 
 # Exclude from processing.

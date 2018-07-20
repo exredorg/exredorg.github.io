@@ -1,5 +1,7 @@
 ---
 title: Exred Introduction
+layout: single
+classes: wide
 sidebar:
   nav: guide_docs
 ---
