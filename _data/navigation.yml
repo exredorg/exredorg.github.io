@@ -7,7 +7,7 @@ guide_docs:
     - title: Getting Started
       children:
           - title: Overview
-            url: /guide/getting-started/overview
+            url: /guide/getting-started/
           - title: Installation
             url: /guide/getting-started/installation
     - title: Flows
@@ -22,5 +22,4 @@ guide_docs:
             url: /guide/node-info
           - title: Node Config
             url: /guide/node-config
-dev_docs:
  

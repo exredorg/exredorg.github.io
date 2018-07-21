@@ -27,12 +27,14 @@ github_username:  exredorg
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
+#remote_theme: "poole/hyde"
 
 include:
     - "_pages"
 
 plugins:
     - jekyll-feed
+
 
 defaults:
   - scope:
