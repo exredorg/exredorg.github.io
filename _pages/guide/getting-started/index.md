@@ -1,10 +1,7 @@
 ---
 title: Exred Overview
 layout: single
-classes:
-- wide
-sidebar:
-  nav: guide_docs
+permalink: /guide/getting-started/
 ---
 
 Exred is a flow-based programming tool. It's basically a [Node-RED](https://nodered.org/) clone with an Elixir twist. You don't have to know Elixir to use it although that is definitely helpful.

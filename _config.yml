@@ -15,12 +15,12 @@
 # in the templates via {{ site.myvariable }}.
 title: Exred
 email: exredorg@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >- 
+    Flow-based programming environment written in Elixir
+    Run it as an Erlang release or in a docker container.
+    Docker image is also availbale for Raspberry Pi.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://exred.org"
 twitter_username: ""
 github_username:  exredorg
 
@@ -29,34 +29,29 @@ markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
 
 include:
-    - "guide"
+    - "_pages"
 
 plugins:
     - jekyll-feed
 
 defaults:
-  # _posts
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
+      classes: wide
+      sidebar:
+        nav: guide_docs
       author_profile: false
       read_time: true
       comments: false
       share: false
       related: false
   - scope:
-      path: "/guide"
-      type: posts
+      path: "assets/downloads"
     values:
-      layout: single
-      author_profile: false
-      read_time: true
-      comments: false
-      share: false
-      related: false
-
+      download: true
 
 
 # Exclude from processing.
