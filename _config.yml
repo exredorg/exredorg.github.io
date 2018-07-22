@@ -35,6 +35,10 @@ include:
 plugins:
     - jekyll-feed
 
+collections:
+    prototypes:
+      output: true
+
 
 defaults:
   - scope:
@@ -46,15 +50,29 @@ defaults:
       sidebar:
         nav: guide_docs
       author_profile: false
-      read_time: true
+      read_time: false
       comments: false
       share: false
       related: false
+
+  - scope:
+      path: ""
+      type: prototypes
+    values:
+      layout: single
+      classes: wide
+      sidebar:
+        nav: guide_docs
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
+ 
   - scope:
       path: "assets/downloads"
     values:
       download: true
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

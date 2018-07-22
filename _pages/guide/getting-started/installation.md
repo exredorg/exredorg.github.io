@@ -11,7 +11,6 @@ Using Docker
     curl {{site.url}}{{site.baseurl}}/assets/downloads/docker-compose.yml
     docker-compose up
 
-
 Run From Source
 ---------------
 
@@ -38,11 +37,4 @@ Grab the tar file from `rel/<version>/exred.tar.gz`
 Unpack anywhere  
 Edit config in  
 Run it: `./bin/exred start`
-
-
-{% assign download_files = site.static_files | where: "download", true %}
-{% for df in download_files %}
-  {{site.url}}{{site.baseurl}}{{ df.path }}
-{% endfor %}
-
 

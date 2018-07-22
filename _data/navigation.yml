@@ -1,25 +1,29 @@
 main:
     - title: User Guide
-      url: /guide/getting-started/
+      url: /guide/getting-started/overview
     - title: Developers
-      url: /guide/getting-started/overview.html
+      url: /develop/overview
 guide_docs:
     - title: Getting Started
       children:
           - title: Overview
-            url: /guide/getting-started/
+            url: /guide/getting-started/overview
           - title: Installation
             url: /guide/getting-started/installation
     - title: Flows
       children:
           - title: Flow Editor
-            url: /guide/editor
+            url: /guide/flows/editor
+          - title: Flow Selector
+            url: /guide/flows/selector
+          - title: Deploying Flows
+            url: /guide/flows/deploy
     - title: Nodes
       children:
-          - title: Node Selector
-            url: /guide/node-selector
-          - title: Node Info
-            url: /guide/node-info
-          - title: Node Config
-            url: /guide/node-config
- 
+          - title: Info Tab
+            url: /guide/nodes/info
+          - title: Config Tab
+            url: /guide/nodes/config
+          - title: Prototypes
+            url: /guide/nodes/prototypes
+

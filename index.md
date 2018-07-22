@@ -4,7 +4,7 @@ title: "Flow-based programming environment for Elixir"
 header:
   overlay_color: "#220077"
   cta_label: "Get Started"
-  cta_url: "/guide/getting-started/"
+  cta_url: "/guide/getting-started/overview"
 ---
 
 
