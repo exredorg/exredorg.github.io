@@ -20,6 +20,8 @@ guide_docs:
             url: /guide/flows/deploy
     - title: Nodes
       children:
+          - title: Node Groups
+            url: /guide/nodes/groups
           - title: Info Tab
             url: /guide/nodes/info
           - title: Config Tab
