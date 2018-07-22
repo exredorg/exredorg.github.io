@@ -29,3 +29,15 @@ guide_docs:
           - title: Prototypes
             url: /guide/nodes/prototypes
 
+dev_docs:
+    - title: Developer Guide
+      children:
+          - title: Node Prototypes
+            url: /develop/prototypes
+          - title: Daemon Nodes
+            url: /
+          - title: Supervision Tree
+            url: /
+          - title: Events
+            url: /
+

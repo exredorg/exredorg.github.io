@@ -37,7 +37,9 @@ plugins:
 
 collections:
     prototypes:
-      output: true
+        output: true
+    develop:
+        output: true
 
 
 defaults:
@@ -49,6 +51,20 @@ defaults:
       classes: wide
       sidebar:
         nav: guide_docs
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
+
+  - scope:
+      path: ""
+      type: develop
+    values:
+      layout: single
+      classes: wide
+      sidebar:
+        nav: dev_docs
       author_profile: false
       read_time: false
       comments: false
