@@ -29,6 +29,11 @@ markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
 #remote_theme: "poole/hyde"
 
+analytics:
+    provider: "google-gtag"
+    google:
+        tracking_id: "UA-122866146-1"
+
 include:
     - "_pages"
 
