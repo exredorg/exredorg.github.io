@@ -7,14 +7,14 @@ permalink: /guide/getting-started/installation/
 Using Docker
 ------------
 
-    curl {{site.url}}{{site.baseurl}}/assets/downloads/env-file
-    curl {{site.url}}{{site.baseurl}}/assets/downloads/docker-compose.yml
+    git clone https://github.com/exredorg/exred-compose.git
+    cd exred-compose
     docker-compose up
 
 Run From Source
 ---------------
 
-    git clone https://github.com/exredorg/exred
+    git clone https://github.com/exredorg/exred.git
     cd exred
     mix deps.get
 
