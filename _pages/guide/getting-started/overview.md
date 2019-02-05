@@ -4,9 +4,9 @@ layout: single
 permalink: /guide/getting-started/overview
 ---
 
-Exred is a flow-based programming tool. It's basically a [Node-RED](https://nodered.org/) clone with an Elixir twist. You don't have to know Elixir to use it although that is definitely helpful.
+Exred is a flow-based programming tool inspired by [Node-RED](https://nodered.org/) and written in Elixir. You don't have to know Elixir to use it although that is definitely helpful.
 
-Exred utilizes Elixir's (actually Erlang's) easy process creation, message passing and supervision trees.
+Exred utilizes Elixir's easy process creation, message passing and supervision trees.
 
 It can be deployed anywhere where you can run an Erlang release or a Docker image.  
 There are docker files to build images based on the standard ```elixir:1.5``` image (Debian) and on the ```resin/rpi-raspbian``` image.

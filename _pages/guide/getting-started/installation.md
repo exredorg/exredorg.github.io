@@ -10,31 +10,44 @@ Using Docker
     git clone https://github.com/exredorg/exred-compose.git
     cd exred-compose
     docker-compose up
+    
+**Go to 'http://localhost:4000' to access the UI.**
 
 Run From Source
 ---------------
+You will need to set up and run two separate elixir applications and a postgresql server (and optionally a redis server).
 
-    git clone https://github.com/exredorg/exred.git
-    cd exred
-    mix deps.get
+1. Set up a postgresql server and optionally create a user for exred
 
-Set up a postgresql server and optionally create a user for exred
+2. Set up the Exred UI application
+
+        git clone https://github.com/exredorg/exred_ui.git
+        cd exred_ui
+        mix deps.get
+        iex -S mix phx.server
+
+
+3. Set up the Exred Scheduler application
+
+        git clone https://github.com/exredorg/exred_scheduler.git
+        cd exred_scheduler
+        mix deps.get
+        iex -S mix
+
     
-Edit config files for the `exred_scheduler` and `exred_ui` apps. 
-
-    iex -S mix phx.server
+Edit the config files for both applications if needed before you start them.
 
 
 Build a Release
 ---------------
 
-    git clone https://github.com/exredorg/exred
-    cd exred
-    mix deps.get deps.compile
-    mix release
+    git clone https://github.com/exredorg/exred_ui.git
+    cd exred_ui
+    make release
 
-Grab the tar file from `rel/<version>/exred.tar.gz`  
-Unpack anywhere  
-Edit config in  
-Run it: `./bin/exred start`
+    git clone https://github.com/exredorg/exred_scheduler.git
+    cd exred_scheduler
+    make release
+
+Grab the release tar files. Unpack, edit config and run the releases.
 
