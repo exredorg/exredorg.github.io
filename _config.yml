@@ -39,6 +39,7 @@ include:
 
 plugins:
     - jekyll-feed
+    - jekyll-include-cache
 
 collections:
     prototypes:
