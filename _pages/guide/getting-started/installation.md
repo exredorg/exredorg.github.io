@@ -7,11 +7,20 @@ permalink: /guide/getting-started/installation/
 Use Docker
 ------------
 
+**On x86 (desktop)**
+
     git clone https://github.com/exredorg/exred-compose.git
     cd exred-compose
     docker-compose up
     
+**On Raspberry Pi**
+
+    git clone https://github.com/exredorg/exred-compose.git
+    cd exred-compose
+    docker-compose -f rpi-docker-compose.yml up
+
 **Go to `http://localhost:4000` to access the UI.**
+
 
 Run From Source
 ---------------
