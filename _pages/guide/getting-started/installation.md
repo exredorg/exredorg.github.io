@@ -24,6 +24,7 @@ Use Docker
 
 Nerves
 --------
+**NOTE: Exred Nerves runs on Raspberry Pi 3.**
 
 Download the release image and write it to an SD card (change `of=/dev/sdb` to the correct device)
 
@@ -35,9 +36,9 @@ Download the release image and write it to an SD card (change `of=/dev/sdb` to t
 
 This will work with a wired Ethernet connection and a [USB Serial Console](https://hexdocs.pm/nerves/faq.html#using-a-usb-serial-console).
 
-If you need wireless connection see instructions [here]().
+If you need wireless connection see instructions [here](/guide/nerves/wifi/).
 
-More Nerves specific info [here]().
+More Nerves specific info [here](/guide/nerves/overview).
 
 
 Run From Source
