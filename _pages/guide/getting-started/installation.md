@@ -22,6 +22,24 @@ Use Docker
 **Go to `http://localhost:4000` to access the UI.**
 
 
+Nerves
+--------
+
+Download the release image and write it to an SD card (change `of=/dev/sdb` to the correct device)
+
+    wget https://github.com/exredorg/exred_nerves/releases/download/v0.1.1/exred_nerves_v0.1.1.fw
+    dd bs=4M if=exred_nerves_v0.1.1.fw of=/dev/sdb 
+
+**Go to `http://nerves.local:8000` to access the UI.**  
+(you might have to use the actual IP instead of nerves.local)
+
+This will work with a wired Ethernet connection and a [USB Serial Console](https://hexdocs.pm/nerves/faq.html#using-a-usb-serial-console).
+
+If you need wireless connection see instructions [here]().
+
+More Nerves specific info [here]().
+
+
 Run From Source
 ---------------
 You will need to set up and run two separate elixir applications and a postgresql server (and optionally a redis server).

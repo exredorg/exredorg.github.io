@@ -28,6 +28,15 @@ guide_docs:
             url: /guide/nodes/config
           - title: Prototypes
             url: /guide/nodes/prototypes
+    - title: Nerves
+      children:
+          - title: Overview
+            url: /guide/nerves/overview
+          - title: Wifi Setup
+            url: /guide/nerves/wifi
+          #- title: Building
+          #  url: /guide/nerves/build
+
 
 dev_docs:
     - title: Developer Guide
