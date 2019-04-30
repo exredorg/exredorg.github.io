@@ -34,7 +34,7 @@ guide_docs:
             url: /guide/nerves/overview
           - title: Wifi Setup
             url: /guide/nerves/wifi
-          - title: Demo Included in Release
+          - title: Demo in Release Image
             url: /guide/nerves/demo
           #- title: Building
           #  url: /guide/nerves/build

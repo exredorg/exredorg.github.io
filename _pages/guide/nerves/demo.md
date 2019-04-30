@@ -17,7 +17,7 @@ To try it out do this:
 
 2. Switch to the Debug tab on the far right side
 3. Click on the Play button in the Trigger node that's in the top left of the flow editor area.  
-    You should see a debug message showing up in the Debug window with a "Hello World" payload.
+    You should see a debug message show up in the Debug window with a "Hello World" payload.
 
     This is what happened in the background:
     - Trigger node in the UI received the click

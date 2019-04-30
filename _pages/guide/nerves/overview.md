@@ -25,7 +25,7 @@ The docker deployment runs the UI in a separate container so this conflict is no
 If you need the gRPC support use the docker containers built for RPI3 (see [Getting Started](/guide/getting-started/installation/)).  
 This will be resolved with upgrading the UI application to the latest Phoenix version.
 
-### Hardcoded file names for AWS ceerts and key:
+### Hardcoded file names for AWS certs and private key:
 If you are using the AWS IOT nodes to connect to the AWS IOT cloud these are the default config settings in the firmware release image:
 
     config :exred_node_aws_iot_daemon, :ssl,
