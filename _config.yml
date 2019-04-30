@@ -16,10 +16,9 @@
 title: Exred
 email: exredorg@gmail.com
 description: >- 
-    Flow-based programming environment written in Elixir
-    Run it as an Erlang release or in a docker container.
-    Docker image is also availbale for Raspberry Pi.
-baseurl: "" # the subpath of your site, e.g. /blog
+    Flow-based programming environment written in Elixir.
+    Deploy as native Erlang release or in docker containers or as a Nerves image.
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://exred.org"
 twitter_username: ""
 github_username:  exredorg
