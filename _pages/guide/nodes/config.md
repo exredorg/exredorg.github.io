@@ -1,7 +1,7 @@
 ---
 title: Config Tab
 layout: single
-permalink: /guide/nerves/config/
+permalink: /guide/nodes/config/
 ---
 
 Allows you to change the active node's configuration.

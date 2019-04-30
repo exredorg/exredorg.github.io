@@ -1,7 +1,7 @@
 ---
 title: Info Tab
 layout: single
-permalink: /guide/nerves/info/
+permalink: /guide/nodes/info/
 ---
 
 Displays documentation for the active node.
