@@ -28,8 +28,8 @@ Nerves
 
 Download the release image and write it to an SD card (change `of=/dev/sdb` to the correct device)
 
-    wget https://github.com/exredorg/exred_nerves/releases/download/v0.1.1/exred_nerves_v0.1.1.fw
-    dd bs=4M if=exred_nerves_v0.1.1.fw of=/dev/sdb 
+    wget https://github.com/exredorg/exred_nerves/releases/download/v0.1.1/exred_nerves_v0.1.1.img
+    dd bs=4M if=exred_nerves_v0.1.1.img of=/dev/sdb 
 
 **Go to `http://nerves.local:8080` to access the UI.**  
 (you might have to use the actual IP instead of nerves.local)
